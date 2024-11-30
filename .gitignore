@@ -1,0 +1,37 @@
+# Bazel specific
+/bazel-*
+/bazel-bin
+/bazel-genfiles
+/bazel-out
+/bazel-testlogs
+/bazel-workspace
+
+# IDE specific (VSCode, CLion, etc)
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# C++ specific
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Build outputs
+/build/
+/dist/
+
+# Dependency directories
+/external/
+
+# Module specific
+MODULE.bazel.lock
+
+# Temporary files
+*.log
+*.cache
+
