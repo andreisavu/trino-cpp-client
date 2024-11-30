@@ -2,7 +2,7 @@
 
 #include <string>
 
-namespace trinodb
+namespace trino
 {
 
     class Client
@@ -22,4 +22,4 @@ namespace trinodb
         std::string port_;
     };
 
-} // namespace trinodb
+} // namespace trino

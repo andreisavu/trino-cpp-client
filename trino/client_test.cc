@@ -4,6 +4,6 @@
 
 TEST(Client, Connect)
 {
-    trinodb::Client client;
+    trino::Client client;
     client.connect("localhost", "8080");
 }

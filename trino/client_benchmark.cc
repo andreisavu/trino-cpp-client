@@ -6,7 +6,7 @@ static void BM_Client(benchmark::State &state)
 {
     for (auto _ : state)
     {
-        trinodb::Client client;
+        trino::Client client;
         client.connect("localhost", "8080");
     }
 }
